@@ -28,7 +28,7 @@ def make_text(text):
             res = res + ' '  + i
         else:
             res = res + i
-    return res
+    return res[1:]
 
 print(make_text(new_items))
 
